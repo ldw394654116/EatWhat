@@ -1,0 +1,51 @@
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1vh auto 1vh 2vw;
+    width: 30vw;
+    height: 7vh;
+    border: 1px solid black;
+    border-radius: 5vh;
+    float: left;
+    background-color: dodgerblue;
+    font-size: 3vh;
+}
+
+.turnDiv {
+    display: flex;
+    width: 80vw;
+    height: 20vh;
+    border: 1px solid rgb(179, 127, 166);
+    background-color: rgba(210, 101, 214, 0.452);
+    border-radius: 15vw;
+    justify-content: center;
+    align-items: center;
+    font-size: 10vh;
+    margin-top: .4vh;
+}
+
+button {
+    
+    width: 65vw;
+    height: 10vh;
+    border: 1px solid rgba(15, 15, 15, 0.288);
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    box-shadow: 3px 2px 1px rgba(40, 240, 14, 0.603);
+    border-radius: 5px;
+    font-size: 3vh;
+}
+
+button:active {
+    background-color: aliceblue;
+}
+
+

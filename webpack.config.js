@@ -7,14 +7,16 @@ module.exports = {
     historyApiFallback: true,
     hot: true,
     inline: true,
+
     progress: true,
     contentBase: './app',
-    port: 8080,
+    port: 18080,
+    host: '0.0.0.0',
     disableHostCheck: true
   },
   entry: [
     'webpack/hot/dev-server',
-    'webpack-dev-server/client?http://192.168.4.13:8080',
+    'webpack-dev-server/client?http://192.168.4.13:18080',
     path.resolve(__dirname, 'app/main.jsx')
   ],
   output: {
@@ -33,6 +35,6 @@ module.exports = {
   },
   plugins: [
     new webpack.HotModuleReplacementPlugin(),
-    new OpenBrowserPlugin({ url: 'http://192.168.4.13:8080' })
+    new OpenBrowserPlugin({ url: 'http://192.168.4.13:18080' })
   ]
 };

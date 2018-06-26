@@ -1,6 +1,6 @@
 import React from 'react'
 import {turn_info} from './Info'
-
+import $ from 'jquery'
 require('./Turn.css')
 
 class Turn extends React.Component {
@@ -67,6 +67,11 @@ class Turn extends React.Component {
             this.startChange()
         }
         
+        //success
+        // $.post('http://192.168.4.13:8080/DRGs/OverAllSituationCtr/testajax',
+        // {"info": 123,"rgoCode":456} , function (data) {
+        //     console.log("data:" + data);
+        // })
     }
 
     buttonChange2() {

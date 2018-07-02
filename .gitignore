@@ -49,3 +49,6 @@ lib
 
 # Editor
 .idea
+
+# VsCode
+.vscode
